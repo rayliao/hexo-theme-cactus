@@ -14,10 +14,9 @@ direction: ltr
 # navigation menu. Optionally, you can add translations for the 'Key' in
 # languages/*.yml
 nav:
-  home: /
-  # articles: /archives/
+  Home: /
+  Archive: /archives
   Ray: http://www.rayliao.com/
-  Github: https://github.com/rayliao
   Rss: /atom.xml
 
 # Links to your social media accounts.
@@ -25,11 +24,9 @@ nav:
 # (see https://fontawesome.com/icons?d=gallery&s=brands);
 # only 'mail' is an exception.
 social_links:
-  github: http://github.com/probberechts/cactus-dark
-  twitter: /
-  facebook: /
-  linkedin: /
-  mail: mailto:name@email.com
+  github: https://github.com/rayliao
+  instagram-square: https://www.instagram.com/wingrayliao/
+  mail: mailto:rayliao1989@email.com
 
 # Customize the overview with displaying a tagcloud on the index page.
 # Options: https://hexo.io/docs/helpers.html#tagcloud
@@ -42,7 +39,7 @@ tags_overview: false
 #   - sort_updated: sort posts by last modification date instead of creation date.
 posts_overview:
   show_all_posts: false
-  post_count: 5
+  post_count: 30
   sort_updated: false
 
 # Customize the archive view.
@@ -122,7 +119,7 @@ page_width: 48
 ##############################################################################
 
 # Enable or disable the RSS feed.
-rss: false
+rss: atom.xml
 
 # Turn your web pages into graph objects (see http://ogp.me).
 open_graph:
